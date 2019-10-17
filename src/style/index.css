@@ -1,0 +1,206 @@
+/* General styling
+***************************************************************/
+body{
+    margin: 0;
+    background: ghostwhite;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Styling for the navigation bar.
+**************************************************************/
+#nav-bar{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#nav-bar img{
+    float: left;
+    padding-top: 15px;
+}
+
+header{
+    background: rgba(250, 250, 250, 0.95);
+    height: 50px;
+}
+
+/*Clear fix for header*/
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 80px;
+    padding-top: 15px;
+    position: relative;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: chocolate;
+}
+
+nav a::before{
+    content: "";
+    display: block;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 0;
+    width: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+nav a:active{
+    color: #FCC420;
+}
+
+.orange{
+    color: #FCC420;
+}
+
+/* Styling for the body of the pages
+**********************************************************************************/
+/*Highlighted text styling*/
+.HighlightedText{
+    width: fit-content;
+    height: fit-content;
+    padding: 0 auto;
+    /*margin: 0 auto;*/
+}
+
+.HighlightedText h3{
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.HighlightedText hr{
+    position: relative;
+    margin: 0 auto;
+    border: 5px solid rgb(252, 196, 32);
+    transform: translateY(-100%);
+    z-index: -3;
+}
+
+/* Styling for paragraph text
+*******************************************************************************/
+.paragraphText{
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Styling for the bio box
+*****************************************************************************/
+.bioBox{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.bottomBio .HighlightedText{
+    margin: 0 auto;
+}
+
+.bottomBio .socialMedia{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+/* Styling for the logos
+********************************************************************************/
+.fa-envelope{
+    color: #FCC420;
+}
+
+.fa-envelope:hover{
+    background-color: #FCC420;
+    color: white;
+}
+
+.fa-linkedin-in{
+    color: #007AB9;
+}
+
+.fa-linkedin-in:hover{
+    background-color: #007AB9;
+    color: white;
+}
+
+.fa-instagram{
+    color: #E1306C;
+}
+
+.fa-instagram:hover{
+    background-color: #E1306C;
+    color: white;
+}
+
+.fa-envelope, .fa-instagram, .fa-linkedin-in{
+    border: 1px solid;
+    border-radius: 25%;
+    padding: 7px;
+    font-size: 22px;
+    margin: 10px 25px 10px 0;
+}
+
+/* Styling for the case study bar
+***************************************************************************/
+.case{
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.case p{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    letter-spacing: 0.01em;
+}
+
+/* Styling for the left side rendering
+******************************************************************************/
+.leftRender, .rightRender{
+    width: 80%;
+    display: grid;
+    align-items: center;
+    grid-column-gap: 60px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto 50px;
+}
+
+/*.leftRender div{*/
+/*    border: 1px solid black;*/
+/*    width: fit-content;*/
+/*    height: fit-content;*/
+/*}*/
+
