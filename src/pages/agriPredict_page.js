@@ -93,7 +93,7 @@ function RenderAgriPredict() {
                 <img className={"agriImg"} src={user_story} alt={"User Story"}/>
 
                 <CaseHeading text={"Competitive Analysis"} color={"green"} span={" - Research"}/>
-                <div id={"head_comp"}>
+                <div className={"head_comp"}>
                     <ParagraphText
                         paragraph = {"I looked into how direct competitors in the Agricultural and dashboard data space " +
                         "visualize their data and present their information and the relationship/experience with users in and out of the process."}

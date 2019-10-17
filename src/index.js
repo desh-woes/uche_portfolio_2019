@@ -5,9 +5,10 @@ import ReactDOM from 'react-dom';
 import RenderHome from "./pages/home_page";
 import RenderPagaPage from "./pages/paga_page";
 import RenderAgriPredict from "./pages/agriPredict_page";
+import RenderZap from "./pages/zap_page";
 
 ReactDOM.render(
-    <RenderAgriPredict/>,
+    <RenderZap/>,
     document.getElementById('root')
 );
 

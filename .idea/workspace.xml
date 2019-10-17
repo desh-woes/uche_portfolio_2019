@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd61ad70-5824-4c65-9918-0a3342adb254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/Ap Page/Agripredict User story _ user Journey v2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Ap Page/Ap Header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Ap Page/Frame 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Ap Page/Logos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Ap Page/Screen grab of a wireframing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Ap Page/Shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Ap Page/Wireframe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Ap Page/prototype of onboarding and registration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/agriPredict_page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Zap Page/Frame 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Zap Page/USer Flow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Zap Page/User Srtory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Zap Page/Wireframe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Zap Page/Zap Header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/zap_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/caseStudy_heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/caseStudy_heading.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/paga_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/paga_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/agriPredict_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/agriPredict_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,10 +38,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -94,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571304748961</updated>
-      <workItem from="1571304750822" duration="20388000" />
+      <workItem from="1571304750822" duration="21078000" />
+      <workItem from="1571331343196" duration="2872000" />
     </task>
     <task id="LOCAL-00001" summary="Environment setup for the portfolio project">
       <created>1571306291976</created>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571319618981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed component development for the Third page">
+      <created>1571325880982</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571325880982</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +135,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -138,6 +147,7 @@
     <MESSAGE value="Environment setup for the portfolio project" />
     <MESSAGE value="Successfully developed components for the first page" />
     <MESSAGE value="Completed component development for the second page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed component development for the second page" />
+    <MESSAGE value="Completed component development for the Third page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed component development for the Third page" />
   </component>
 </project>

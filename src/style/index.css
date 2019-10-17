@@ -269,7 +269,7 @@ nav a:active{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -358,16 +358,26 @@ nav a:active{
     margin: 0 auto 15px;
 }
 
-#head_comp{
+.head_comp{
     display: grid;
     grid-template-columns: 2fr 1fr;
     /*border: 1px solid black;*/
     column-gap: 20px;
 }
 
-#head_comp img{
+.head_comp img{
     margin: 0 auto;
     max-height: 120px;
     width: 300px;
     object-fit: cover;
+}
+
+/* Styling for the Zap product page.
+*************************************************************************************************/
+.blue{
+    color: #003543;
+}
+
+.spanBar_2{
+    background: linear-gradient(90deg, #1C2E3A 0%, #214F66 100%);
 }
