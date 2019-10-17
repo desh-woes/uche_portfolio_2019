@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+// Import required pages
 import RenderHome from "./pages/home_page";
+import RenderPagaPage from "./pages/paga_page";
 
 ReactDOM.render(
-    <RenderHome/>,
+    <RenderPagaPage/>,
     document.getElementById('root')
 );
 
