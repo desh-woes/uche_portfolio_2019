@@ -132,6 +132,13 @@ nav a:active{
     width: fit-content;
 }
 
+.socialMedia{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    flex-direction: row;
+}
+
 /* Styling for the logos
 ********************************************************************************/
 .fa-envelope{
@@ -166,7 +173,6 @@ nav a:active{
     border-radius: 25%;
     padding: 7px;
     font-size: 22px;
-    margin: 10px 25px 10px 0;
 }
 
 /* Styling for the case study bar
@@ -197,12 +203,6 @@ nav a:active{
     grid-template-columns: 1fr 1fr;
     margin: 0 auto 50px;
 }
-
-/*.leftRender div{*/
-/*    border: 1px solid black;*/
-/*    width: fit-content;*/
-/*    height: fit-content;*/
-/*}*/
 
 
 /* Styling for the Case study banner
@@ -253,6 +253,10 @@ nav a:active{
 /*Styling for case study text*/
 .orange{
     color: #F27E21;
+}
+
+.green{
+    color: #7EAF2E;
 }
 
 /*Styling for the case div and it's content*/
@@ -310,4 +314,60 @@ nav a:active{
     font-size: 15px;
     font-weight: 300;
     text-align: center;
+}
+
+/* Styling for the span bar
+*************************************************************************************************/
+.spanBar{
+    background: linear-gradient(112.96deg, #A2B62C 3.21%, #77AA31 95.38%);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 100px 50px 100px;
+    color: white;
+}
+
+.spanBar q{
+    font-size: 20px;
+}
+
+#specialHeading .green{
+    margin: 0 auto;
+}
+
+.green span{
+    font-size: 12px;
+    color: gray;
+    font-weight: lighter;
+}
+
+#sub_heading{
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 15px;
+    color: #5b5b5b;
+}
+
+#sub_heading span{
+    color: #7EAF2E;
+}
+
+/*Styling for the images in the agripredict page*/
+.agriImg{
+    display: flex;
+    margin: 0 auto 15px;
+}
+
+#head_comp{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /*border: 1px solid black;*/
+    column-gap: 20px;
+}
+
+#head_comp img{
+    margin: 0 auto;
+    max-height: 120px;
+    width: 300px;
+    object-fit: cover;
 }

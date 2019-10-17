@@ -6,14 +6,15 @@ import CaseHeading from "../components/caseStudy_heading";
 import ParagraphText from "../components/paragraph_comp";
 import LogoDiv from "../components/logoTextDiv";
 import Header from "../components/header_comp";
+import HighlightedText from "../components/textHighlight_comp";
+import RenderLogo from "../components/logo_comp";
 
 // Import the required images
 import pagaBanner from "../images/Paga Page/Paga Header.png";
 
 // Import Style sheet
 import "../style/index.css";
-import HighlightedText from "../components/textHighlight_comp";
-import RenderLogo from "../components/logo_comp";
+
 
 function RenderPagaPage() {
     return(
