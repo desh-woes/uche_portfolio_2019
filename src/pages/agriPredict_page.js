@@ -5,6 +5,8 @@ import Header from "../components/header_comp";
 import RenderCompanyBanner from "../components/logoBanner";
 import CaseHeading from "../components/caseStudy_heading";
 import ParagraphText from "../components/paragraph_comp";
+import HighlightedText from "../components/textHighlight_comp";
+import RenderLogo from "../components/logo_comp";
 
 // Import the required images
 import AP_banner from "../images/Ap Page/Ap Header.png";
@@ -19,9 +21,6 @@ import mobile_screen_2 from "../images/Ap Page/Shot.png";
 
 // Import Style sheet
 import "../style/index.css";
-import HighlightedText from "../components/textHighlight_comp";
-import RenderLogo from "../components/logo_comp";
-
 
 
 function RenderAgriPredict() {

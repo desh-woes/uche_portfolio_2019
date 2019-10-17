@@ -6,9 +6,10 @@ import RenderHome from "./pages/home_page";
 import RenderPagaPage from "./pages/paga_page";
 import RenderAgriPredict from "./pages/agriPredict_page";
 import RenderZap from "./pages/zap_page";
+import RenderLetterMark from "./pages/letter_mark";
 
 ReactDOM.render(
-    <RenderZap/>,
+    <RenderLetterMark/>,
     document.getElementById('root')
 );
 

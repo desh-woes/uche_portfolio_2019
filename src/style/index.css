@@ -132,6 +132,12 @@ nav a:active{
     width: fit-content;
 }
 
+#topBio .socialMedia{
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .socialMedia{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -259,6 +265,10 @@ nav a:active{
     color: #7EAF2E;
 }
 
+.yellow{
+    color: #FCC420;
+}
+
 /*Styling for the case div and it's content*/
 .caseDiv{
     width: 80%;
@@ -380,4 +390,14 @@ nav a:active{
 
 .spanBar_2{
     background: linear-gradient(90deg, #1C2E3A 0%, #214F66 100%);
+}
+
+/*Styling for the letter mark page
+**************************************************************************************************/
+#letterText{
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    width: 40%;
 }

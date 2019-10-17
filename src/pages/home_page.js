@@ -30,7 +30,9 @@ function RenderHome() {
                     "I am currently looking for new projects as a freelancer and opportunities to work for and learn from companies worldwide. 💼"}/>
 
                     <ParagraphText paragraph={"Get in touch with me via any of these!﻿"}/>
-                    <RenderLogo/>
+                    <div id={"topBio"}>
+                        <RenderLogo/>
+                    </div>
             </div>
             <CaseStudy/>
             <RenderLeft
