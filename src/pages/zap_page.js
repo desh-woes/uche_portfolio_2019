@@ -118,7 +118,13 @@ function RenderZap(){
                 />
             </div>
             <div className={"bioBox bottomBio"}>
-                <HighlightedText text={"Say Hello"}/>
+                <HighlightedText
+                    text={"Say Hello"}
+                    backLink={"/agriPredict"}
+                    backNav={"Previous Project"}
+                    forwardLink={"/paga"}
+                    forwardNav={"Next Project"}
+                />
                 <RenderLogo/>
             </div>
         </div>

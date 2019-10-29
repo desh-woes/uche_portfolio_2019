@@ -126,7 +126,7 @@ function RenderAgriPredict() {
                     text={"Say Hello"}
                     backLink={"/work"}
                     backNav={"Home Page"}
-                    forwardLink={"/paga"}
+                    forwardLink={"/zap"}
                     forwardNav={"Next Project"}
                 />
                 <RenderLogo/>

@@ -34,39 +34,40 @@ function RenderHome() {
             </div>
             <CaseStudy/>
             <RenderLeft
-                img = {paga}
-                label = {"Pagatech"}
-                paragraph = {"Building products that is making payments easier for Africa"}
-                text = {"View case study"}
-                link={"/paga"}
-            />
-            <RenderRight
                 img = {agripredict}
                 label = {"Agripredict"}
                 paragraph = {"Agricultural risk and data management through Artificial Intelligence"}
                 text = {"View case study"}
                 link={"/agriPredict"}
             />
-            <RenderLeft
+            <RenderRight
                 img = {zap}
                 label = {"Zap"}
                 paragraph = {"Creating an experience for maid hiring services."}
                 text = {"View case study"}
                 link={"/zap"}
             />
+            <RenderLeft
+                img = {paga}
+                label = {"Pagatech"}
+                paragraph = {"Building products that is making payments easier for Africa"}
+                text = {"View case study"}
+                link={"/paga"}
+            />
+
             <RenderRight
+                img = {upLabs}
+                label = {"Ui Designs"}
+                paragraph = {"More of my fun / commisioned Ui design projects."}
+                text = {"View case study"}
+            />
+
+            <RenderLeft
                 img = {letterMark}
                 label = {"Letter mark exploration"}
                 paragraph = {"I once did a series of explorations redesigning every alphabet in logo forms. Sounds cool right? "}
                 text = {"View case study"}
                 link={"/letterMark"}
-            />
-            <RenderLeft
-                img = {upLabs}
-                label = {"Ui Designs"}
-                paragraph = {"More of my fun / commisioned Ui design projects."}
-                text = {"View case study"}
-                // link={""}
             />
             <div className={"bioBox bottomBio"}>
                     <HighlightedText text={"Say Hello"}/>

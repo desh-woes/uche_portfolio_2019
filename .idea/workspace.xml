@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd61ad70-5824-4c65-9918-0a3342adb254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/inPageNav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/textHighlight_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/textHighlight_comp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/agriPredict_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/agriPredict_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/letter_mark.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/letter_mark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/paga_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/paga_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/zap_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/zap_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,7 +94,7 @@
       <workItem from="1571331343196" duration="11753000" />
       <workItem from="1571384627005" duration="904000" />
       <workItem from="1571391079629" duration="919000" />
-      <workItem from="1572336412524" duration="6483000" />
+      <workItem from="1572336412524" duration="8298000" />
     </task>
     <task id="LOCAL-00001" summary="Environment setup for the portfolio project">
       <created>1571306291976</created>
@@ -150,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572341718367</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Found out how to add in-page navigation">
+      <created>1572343354358</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572343354358</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +187,7 @@
     <MESSAGE value="Completed component development for the Fifth page. All pages are now complete" />
     <MESSAGE value="Completed About page" />
     <MESSAGE value="Started adding page links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started adding page links" />
+    <MESSAGE value="Found out how to add in-page navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Found out how to add in-page navigation" />
   </component>
 </project>

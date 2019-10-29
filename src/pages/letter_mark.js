@@ -79,7 +79,13 @@ function RenderLetterMark() {
                 You can view more amazing stuff on my Instagram feed
             </p>
             <div className={"bioBox bottomBio"}>
-                <HighlightedText text={"Say Hello"}/>
+                <HighlightedText
+                    text={"Say Hello"}
+                    backLink={"/paga"}
+                    backNav={"Previous Project"}
+                    forwardLink={"/"}
+                    forwardNav={"Home Page"}
+                />
                 <RenderLogo/>
             </div>
         </div>

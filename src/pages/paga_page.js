@@ -71,7 +71,13 @@ function RenderPagaPage() {
                 />
             </div>
             <div className={"bioBox bottomBio"}>
-                <HighlightedText text={"Say Hello"}/>
+                <HighlightedText
+                    text={"Say Hello"}
+                    backLink={"/zap"}
+                    backNav={"Previous Project"}
+                    forwardLink={"/letterMark"}
+                    forwardNav={"Next Project"}
+                />
                 <RenderLogo/>
             </div>
         </div>
