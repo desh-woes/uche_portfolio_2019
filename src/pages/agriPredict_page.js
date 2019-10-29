@@ -1,7 +1,6 @@
 import React from 'react';
 
 // Import the required components
-import Header from "../components/header_comp";
 import RenderCompanyBanner from "../components/logoBanner";
 import CaseHeading from "../components/caseStudy_heading";
 import ParagraphText from "../components/paragraph_comp";
@@ -26,7 +25,6 @@ import "../style/index.css";
 function RenderAgriPredict() {
     return(
         <div>
-            <Header/>
             <RenderCompanyBanner
                 companyName={"Agripredict"}
                 logo={AP_banner}

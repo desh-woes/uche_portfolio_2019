@@ -4,6 +4,7 @@ body{
     margin: 0;
     background: ghostwhite;
     font-family: 'Poppins', sans-serif;
+    transition: all ease-in-out 250ms;
 }
 
 
@@ -59,10 +60,10 @@ nav a:hover{
     color: chocolate;
 }
 
-nav a::before{
+nav li::before{
     content: "";
     display: block;
-    height: 3px;
+    height: 5px;
     background: black;
     position: absolute;
     top: 0;
@@ -70,7 +71,7 @@ nav a::before{
     transition: all ease-in-out 250ms;
 }
 
-nav a:hover::before{
+nav li:hover::before{
     width: 100%;
 }
 

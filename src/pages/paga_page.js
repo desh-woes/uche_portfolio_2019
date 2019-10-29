@@ -5,7 +5,6 @@ import RenderCompanyBanner from "../components/logoBanner";
 import CaseHeading from "../components/caseStudy_heading";
 import ParagraphText from "../components/paragraph_comp";
 import LogoDiv from "../components/logoTextDiv";
-import Header from "../components/header_comp";
 import HighlightedText from "../components/textHighlight_comp";
 import RenderLogo from "../components/logo_comp";
 
@@ -19,7 +18,6 @@ import "../style/index.css";
 function RenderPagaPage() {
     return(
         <div>
-            <Header/>
             <RenderCompanyBanner
                 companyName={"Pagatech"}
                 logo={pagaBanner}

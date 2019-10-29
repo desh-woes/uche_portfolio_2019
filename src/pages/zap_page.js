@@ -1,7 +1,6 @@
 import React from 'react';
 
 // Import the required components
-import Header from "../components/header_comp";
 import RenderCompanyBanner from "../components/logoBanner";
 
 
@@ -24,7 +23,6 @@ import RenderLogo from "../components/logo_comp";
 function RenderZap(){
     return(
         <div>
-            <Header/>
             <RenderCompanyBanner
                 companyName={"Zap"}
                 logo={zap_banner}

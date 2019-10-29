@@ -9,7 +9,7 @@ function RenderLeft(props) {
             <div>
                 <h2>{props.label}</h2>
                 <ParagraphText paragraph={props.paragraph}/>
-                <HighlightedText text={props.text}/>
+                <HighlightedText text={props.text} link ={props.link}/>
             </div>
         </div>
     )

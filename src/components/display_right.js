@@ -8,7 +8,7 @@ function RenderRight(props) {
             <div>
                 <h2>{props.label}</h2>
                 <ParagraphText paragraph={props.paragraph}/>
-                <HighlightedText text={props.text}/>
+                <HighlightedText text={props.text} link ={props.link}/>
             </div>
             <img alt={"company"} src={props.img}/>
         </div>

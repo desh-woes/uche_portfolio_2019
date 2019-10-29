@@ -1,13 +1,20 @@
 import React from 'react';
 import logo from "../images/logo192.png"
+import {Link} from "react-router-dom"
 
 // Component rendering the links at the top of the page
 function PageLinks(props) {
+    const linkStyle = {
+        position: "relative"
+    };
     return(
-        props.value.map((text, index) =>
-            <li key={text.toString()}>
-                { index === props.page? <a href={"#"+text.toString()} className={"orange"}>{text}</a>: <a href={"#"+text.toString()} >{text}</a>}
-            </li>)
+        props.value.map((text) =>
+            <Link to={"/"+text.toString()} style={linkStyle}>
+                <li key={text.toString()}>
+                    {text}
+                </li>
+            </Link>
+        )
     );
 }
 
@@ -27,7 +34,9 @@ function Header(props) {
     return(
         <header>
             <div id="nav-bar">
-                <img alt="Portfolio Logo" src={logo}/>
+                <Link to={"/"}>
+                    <img alt="Portfolio Logo" src={logo}/>
+                </Link>
                 <NavBar page = {props.page} />
             </div>
         </header>

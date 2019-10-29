@@ -1,7 +1,6 @@
 import React from 'react';
 
 // Import the required components
-import Header from "../components/header_comp";
 import ParagraphText from "../components/paragraph_comp";
 import HighlightedText from "../components/textHighlight_comp";
 import RenderLogo from "../components/logo_comp";
@@ -15,7 +14,6 @@ import "../style/index.css";
 function RenderAboutPage(){
     return(
         <div>
-            <Header/>
             <div id={"aboutUche"}>
                 <img src={uche_img} alt={"Thaddeus"}/>
                 <div>

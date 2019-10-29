@@ -1,7 +1,6 @@
 import React from 'react';
 
 // Import the required components
-import Header from "../components/header_comp";
 import RenderCompanyBanner from "../components/logoBanner";
 import CaseHeading from "../components/caseStudy_heading";
 import ParagraphText from "../components/paragraph_comp";
@@ -51,7 +50,6 @@ const SECOND_BATCH = [letter_M, letter_N, letter_O, letter_P, letter_Q, letter_R
 function RenderLetterMark() {
     return(
         <div>
-            <Header/>
             <RenderCompanyBanner
                 companyName={"Letter Mark Exploration"}
                 logo={LM_banner}

@@ -2,15 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Import required pages
-import RenderHome from "./pages/home_page";
-import RenderPagaPage from "./pages/paga_page";
-import RenderAgriPredict from "./pages/agriPredict_page";
-import RenderZap from "./pages/zap_page";
-import RenderAboutPage from "./pages/about_page";
-import RenderLetterMark from "./pages/letter_mark";
+import App from "./App"
 
 ReactDOM.render(
-    <RenderAboutPage/>,
+    <App/>,
     document.getElementById('root')
 );
 

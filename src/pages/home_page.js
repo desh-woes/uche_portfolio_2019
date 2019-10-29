@@ -14,7 +14,6 @@ import agripredict from "../images/Home Page/Ap Home.png";
 import zap from "../images/Home Page/Zap Home.png";
 import letterMark from "../images/Home Page/Letter Home.png";
 import upLabs from "../images/Home Page/Ui Design 1.png";
-import Header from "../components/header_comp";
 
 // Import Style sheet
 import "../style/index.css";
@@ -23,7 +22,6 @@ import "../style/index.css";
 function RenderHome() {
     return(
         <div>
-            <Header/>
             <div className={"bioBox"}>
                     <HighlightedText text={"Hi, I'm Uche"}/>
                     <ParagraphText paragraph={"A designer with a focus in user experience, brand identity and interaction design, passionate about solving problems through human centered design. ✨ \n" +
@@ -40,30 +38,35 @@ function RenderHome() {
                 label = {"Pagatech"}
                 paragraph = {"Building products that is making payments easier for Africa"}
                 text = {"View case study"}
+                link={"/paga"}
             />
             <RenderRight
                 img = {agripredict}
                 label = {"Agripredict"}
                 paragraph = {"Agricultural risk and data management through Artificial Intelligence"}
                 text = {"View case study"}
+                link={"/agriPredict"}
             />
             <RenderLeft
                 img = {zap}
                 label = {"Zap"}
                 paragraph = {"Creating an experience for maid hiring services."}
                 text = {"View case study"}
+                link={"/zap"}
             />
             <RenderRight
                 img = {letterMark}
                 label = {"Letter mark exploration"}
                 paragraph = {"I once did a series of explorations redesigning every alphabet in logo forms. Sounds cool right? "}
                 text = {"View case study"}
+                link={"/letterMark"}
             />
             <RenderLeft
                 img = {upLabs}
                 label = {"Ui Designs"}
                 paragraph = {"More of my fun / commisioned Ui design projects."}
                 text = {"View case study"}
+                // link={""}
             />
             <div className={"bioBox bottomBio"}>
                     <HighlightedText text={"Say Hello"}/>
