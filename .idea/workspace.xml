@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd61ad70-5824-4c65-9918-0a3342adb254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/letters_comp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/1letter Mark Header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/D.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/E.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/F.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/G.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/H.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/I.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/J.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/K.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/L.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/M.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/N.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/P.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/Q.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/R.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/S.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/T.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/U.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/V.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/W.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/X.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/Y.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/Z.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/ZAll .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Letter Mark/o.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/letter_mark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Mask Group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/agriPredict_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/agriPredict_page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,7 +89,10 @@
       <option name="presentableId" value="Default" />
       <updated>1571304748961</updated>
       <workItem from="1571304750822" duration="21078000" />
-      <workItem from="1571331343196" duration="11538000" />
+      <workItem from="1571331343196" duration="11753000" />
+      <workItem from="1571384627005" duration="904000" />
+      <workItem from="1571391079629" duration="919000" />
+      <workItem from="1572336412524" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="Environment setup for the portfolio project">
       <created>1571306291976</created>
@@ -156,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571334371878</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed component development for the Fifth page. All pages are now complete">
+      <created>1571351252707</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571351252707</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +161,7 @@
     <MESSAGE value="Completed component development for the second page" />
     <MESSAGE value="Completed component development for the Third page" />
     <MESSAGE value="Completed component development for the fourth page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed component development for the fourth page" />
+    <MESSAGE value="Completed component development for the Fifth page. All pages are now complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed component development for the Fifth page. All pages are now complete" />
   </component>
 </project>
