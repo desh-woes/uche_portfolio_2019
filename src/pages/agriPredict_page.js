@@ -122,7 +122,13 @@ function RenderAgriPredict() {
                 />
             </div>
             <div className={"bioBox bottomBio"}>
-                <HighlightedText text={"Say Hello"}/>
+                <HighlightedText
+                    text={"Say Hello"}
+                    backLink={"/work"}
+                    backNav={"Home Page"}
+                    forwardLink={"/paga"}
+                    forwardNav={"Next Project"}
+                />
                 <RenderLogo/>
             </div>
         </div>

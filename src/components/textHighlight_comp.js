@@ -18,6 +18,25 @@ function HighlightedText(props) {
             </Link>
         )
     }
+
+    if (props.forwardLink && props.backLink){
+        return (
+            <div className={"pageNav"}>
+                <Link to={props.backLink} style={linkStyle}>
+                    <p>{"< " + props.backNav}</p>
+                </Link>
+
+                <div className={"HighlightedText"}>
+                    <h3>{props.text}</h3>
+                    <hr/>
+                </div>
+
+                <Link to={props.forwardLink} style={linkStyle}>
+                    <p>{props.forwardNav + " >"}</p>
+                </Link>
+            </div>
+        )
+    }
     return(
         <div className={"HighlightedText"}>
             <h3>{props.text}</h3>

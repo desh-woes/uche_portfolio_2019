@@ -120,7 +120,7 @@ nav a:active{
 /* Styling for the bio box
 *****************************************************************************/
 .bioBox{
-    width: 50%;
+    width: 70%;
     margin: 50px auto;
 }
 
@@ -420,3 +420,14 @@ nav a:active{
     margin-top: 30px;
     width: 15%;
 }
+
+/*Styling for in-page navigation bar
+**************************************************************************************************/
+.pageNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*align-content: center;*/
+    /*align-items: ;*/
+}
+

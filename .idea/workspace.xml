@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd61ad70-5824-4c65-9918-0a3342adb254" name="Default Changelist" comment="Completed About page">
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    <list default="true" id="bd61ad70-5824-4c65-9918-0a3342adb254" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/inPageNav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/display_left.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/display_left.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/display_right.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/display_right.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header_comp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/textHighlight_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/textHighlight_comp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Mask Group.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Mask Group.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/agriPredict_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/agriPredict_page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home_page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/letter_mark.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/letter_mark.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/paga_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/paga_page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/zap_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/zap_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +92,7 @@
       <workItem from="1571331343196" duration="11753000" />
       <workItem from="1571384627005" duration="904000" />
       <workItem from="1571391079629" duration="919000" />
-      <workItem from="1572336412524" duration="4878000" />
+      <workItem from="1572336412524" duration="6483000" />
     </task>
     <task id="LOCAL-00001" summary="Environment setup for the portfolio project">
       <created>1571306291976</created>
@@ -155,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572338233086</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Started adding page links">
+      <created>1572341718367</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572341718367</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +177,7 @@
     <MESSAGE value="Completed component development for the fourth page" />
     <MESSAGE value="Completed component development for the Fifth page. All pages are now complete" />
     <MESSAGE value="Completed About page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed About page" />
+    <MESSAGE value="Started adding page links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started adding page links" />
   </component>
 </project>
