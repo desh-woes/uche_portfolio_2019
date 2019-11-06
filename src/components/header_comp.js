@@ -19,25 +19,25 @@ function PageLinks(props) {
 }
 
 // Component rendering the navigation bar containing the links
-function NavBar(props) {
+function NavBar() {
     return(
         <nav>
             <ul>
-                <PageLinks value = {["work", "about"]} page = {props.page}/>
+                <PageLinks value = {["work", "about"]}/>
             </ul>
         </nav>
     );
 }
 
 // Header component which renders the header element
-function Header(props) {
+function Header() {
     return(
         <header>
             <div id="nav-bar">
                 <Link to={"/"}>
                     <img alt="Portfolio Logo" src={logo}/>
                 </Link>
-                <NavBar page = {props.page} />
+                <NavBar/>
             </div>
         </header>
     );
