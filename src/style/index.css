@@ -162,6 +162,7 @@ nav a:active{
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 
 /* Styling for the logos
@@ -580,8 +581,9 @@ nav a:active{
 
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 

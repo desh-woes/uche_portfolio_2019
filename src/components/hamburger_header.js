@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import logo from "../images/logo192.png";
 import {Link} from "react-router-dom";
 
 function PageLinks(props) {
