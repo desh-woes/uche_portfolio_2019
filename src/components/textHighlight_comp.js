@@ -9,6 +9,16 @@ function HighlightedText(props) {
     };
 
     if (props.link){
+        if (props.target){
+            return(
+                <Link to={props.link} style={linkStyle} target={"_blank"}>
+                    <div className={"HighlightedText"}>
+                        <h3>{props.text}</h3>
+                        <hr/>
+                    </div>
+                </Link>
+            )
+        }
         return (
             <Link to={props.link} style={linkStyle}>
                 <div className={"HighlightedText"}>

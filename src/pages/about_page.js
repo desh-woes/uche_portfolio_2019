@@ -29,7 +29,11 @@ function RenderAboutPage(){
                         "design on users is a necessary part of solving their daily problems.\n" +
                         "Some small conversation starters for me would be: HIMYM 🍿, Travel 🌊, local cheap eats 🍜"}
                     />
-                    <HighlightedText text={"View my resume"}/>
+                    <HighlightedText
+                        text={"View my resume"}
+                        link={"//drive.google.com/file/d/1MsUmnfoeFs7fny1ISVEKdHahhgvblhPu/view?usp=drivesdk"}
+                        target={"_blank"}
+                    />
                     <ParagraphText
                         paragraph={"Want to work together? Just want to chat?\n" +
                         "Feel free to drop me a line!"}

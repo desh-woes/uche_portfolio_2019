@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bd61ad70-5824-4c65-9918-0a3342adb254" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hamburger_header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hamburger_header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/logo_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo_comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/textHighlight_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/textHighlight_comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -95,7 +97,8 @@
       <workItem from="1573057886730" duration="7303000" />
       <workItem from="1573108177804" duration="192000" />
       <workItem from="1573109794977" duration="4524000" />
-      <workItem from="1573128102897" duration="5970000" />
+      <workItem from="1573128102897" duration="6013000" />
+      <workItem from="1573134763595" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="Environment setup for the portfolio project">
       <created>1571306291976</created>
@@ -188,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573132787922</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated Social media">
+      <created>1573134107842</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573134107842</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +231,7 @@
     <MESSAGE value="Updated header comp" />
     <MESSAGE value="Started developing responsive header bar" />
     <MESSAGE value="Mobile view complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobile view complete" />
+    <MESSAGE value="Updated Social media" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Social media" />
   </component>
 </project>
