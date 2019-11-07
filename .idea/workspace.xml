@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd61ad70-5824-4c65-9918-0a3342adb254" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/scrollToTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logo_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo_comp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/textHighlight_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/textHighlight_comp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about_page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +97,8 @@
       <workItem from="1573108177804" duration="192000" />
       <workItem from="1573109794977" duration="4524000" />
       <workItem from="1573128102897" duration="6013000" />
-      <workItem from="1573134763595" duration="493000" />
+      <workItem from="1573134763595" duration="708000" />
+      <workItem from="1573140830895" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="Environment setup for the portfolio project">
       <created>1571306291976</created>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573134107842</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated Social media links">
+      <created>1573135349747</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1573135349747</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +239,7 @@
     <MESSAGE value="Started developing responsive header bar" />
     <MESSAGE value="Mobile view complete" />
     <MESSAGE value="Updated Social media" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Social media" />
+    <MESSAGE value="Updated Social media links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Social media links" />
   </component>
 </project>
