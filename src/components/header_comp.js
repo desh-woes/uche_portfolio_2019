@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from "../images/logo192.png"
 import {Link} from "react-router-dom"
 
 // Component rendering the links at the top of the page
@@ -31,12 +30,21 @@ function NavBar() {
 
 // Header component which renders the header element
 function Header() {
+    const headerStyle={
+        fontWeight: "bold",
+        fontSize: "20px",
+        textDecoration: "none",
+        color: "black"
+    };
     return(
-        <header>
+        <header className={"header"}>
             <div id="nav-bar">
-                <Link to={"/"}>
-                    <img alt="Portfolio Logo" src={logo}/>
+                <Link to={"/"} style={headerStyle}>
+                    <h1>Ichie Uche</h1>
                 </Link>
+                {/*<Link to={"/"}>*/}
+                {/*    <img alt="Portfolio Logo" src={logo}/>*/}
+                {/*</Link>*/}
                 <NavBar/>
             </div>
         </header>

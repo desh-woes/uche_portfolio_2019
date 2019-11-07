@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import logo from "../images/logo192.png";
 import {Link} from "react-router-dom";
 
@@ -29,7 +29,9 @@ function HamBurger(){
     )
 }
 
-function Header() {
+
+function Header2() {
+    const [isClicked, setClicked] = useState(false);
     const headerStyle={
         fontWeight: "bold",
         fontSize: "20px",
@@ -37,29 +39,20 @@ function Header() {
         color: "black"
     };
     return(
-        <header className={"mobile-container"}>
+        <header className={"mobile-container header2"}>
             <div>
                 <div className={"topNav"}>
                     <Link to={"/"} style={headerStyle}>
                         <h1>Ichie Uche</h1>
                     </Link>
-                    <Link to={void(0)} onClick={myFunction()}>
+                    <Link to={void(0)} onClick={()=> setClicked( !isClicked)}>
                         <i className={"fa fa-bars"}/>
                     </Link>
                 </div>
-                <HamBurger/>
+                { isClicked && <HamBurger/> }
             </div>
         </header>
     );
 }
 
-function myFunction() {
-    let x = document.getElementById("myLinks");
-    // if (x.style.display === "block") {
-    //     x.style.display = "none";
-    // } else {
-    //     x.style.display = "block";
-    // }
-}
-
-export default Header;
+export default Header2;

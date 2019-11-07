@@ -24,7 +24,7 @@ function RenderZap(){
     return(
         <div>
             <RenderCompanyBanner
-                companyName={"Zap"}
+                companyName={"Zap Maids"}
                 logo={zap_banner}
                 position={"UX Designer"}
                 time={"Spring 2019"}

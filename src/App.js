@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Header from "./components/hamburger_header";
+import Header2 from "./components/hamburger_header";
+import Header from "./components/header_comp";
 
 // Import required pages
 import RenderHome from "./pages/home_page";
@@ -18,6 +19,7 @@ function App() {
         <Router>
             <div>
                 <Header/>
+                <Header2/>
                 <Switch>
                     <Route path={"/"} exact component={RenderHome}/>
                     <Route path={"/work"} component={RenderHome}/>

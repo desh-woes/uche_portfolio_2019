@@ -23,7 +23,8 @@ function HighlightedText(props) {
         return (
             <div className={"pageNav"}>
                 <Link to={props.backLink} style={linkStyle}>
-                    <p>{"< " + props.backNav}</p>
+                    <p className={"mainScreen"}>{"< " + props.backNav}</p>
+                    <p className={"mobileScreen"}>{"< "}</p>
                 </Link>
 
                 <div className={"HighlightedText"}>
@@ -32,7 +33,8 @@ function HighlightedText(props) {
                 </div>
 
                 <Link to={props.forwardLink} style={linkStyle}>
-                    <p>{props.forwardNav + " >"}</p>
+                    <p className={"mainScreen"}>{props.forwardNav + " >"}</p>
+                    <p className={"mobileScreen"}>{" >"}</p>
                 </Link>
             </div>
         )

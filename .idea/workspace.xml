@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd61ad70-5824-4c65-9918-0a3342adb254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/hamburger_header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hamburger_header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hamburger_header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header_comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/letters_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/letters_comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/textHighlight_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/textHighlight_comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/zap_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/zap_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,6 +98,9 @@
       <workItem from="1571391079629" duration="919000" />
       <workItem from="1572336412524" duration="9417000" />
       <workItem from="1573057886730" duration="7303000" />
+      <workItem from="1573108177804" duration="192000" />
+      <workItem from="1573109794977" duration="4524000" />
+      <workItem from="1573128102897" duration="4641000" />
     </task>
     <task id="LOCAL-00001" summary="Environment setup for the portfolio project">
       <created>1571306291976</created>
@@ -171,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573059002733</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Started developing responsive header bar">
+      <created>1573108328775</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573108328775</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +217,7 @@
     <MESSAGE value="Found out how to add in-page navigation" />
     <MESSAGE value="Successfully linked all pages" />
     <MESSAGE value="Updated header comp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated header comp" />
+    <MESSAGE value="Started developing responsive header bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started developing responsive header bar" />
   </component>
 </project>
