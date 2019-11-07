@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd61ad70-5824-4c65-9918-0a3342adb254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hamburger_header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header_comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +92,7 @@
       <workItem from="1571384627005" duration="904000" />
       <workItem from="1571391079629" duration="919000" />
       <workItem from="1572336412524" duration="9417000" />
-      <workItem from="1573057886730" duration="970000" />
+      <workItem from="1573057886730" duration="7303000" />
     </task>
     <task id="LOCAL-00001" summary="Environment setup for the portfolio project">
       <created>1571306291976</created>
@@ -163,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572346637438</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated header comp">
+      <created>1573059002733</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573059002733</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +201,7 @@
     <MESSAGE value="Started adding page links" />
     <MESSAGE value="Found out how to add in-page navigation" />
     <MESSAGE value="Successfully linked all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Successfully linked all pages" />
+    <MESSAGE value="Updated header comp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated header comp" />
   </component>
 </project>

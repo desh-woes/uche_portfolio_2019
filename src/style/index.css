@@ -220,6 +220,13 @@ nav a:active{
     margin: 50px auto 0;
 }
 
+@media screen and (max-device-width: 400px) {
+    #pagaBanner img{
+        min-height: 300px;
+        object-fit: cover;
+    }
+}
+
 
 /*Place div on top of the image*/
 .logo_desc{
@@ -370,17 +377,27 @@ nav a:active{
 }
 
 .head_comp{
+    /*width: 100%;*/
     display: grid;
     grid-template-columns: 2fr 1fr;
     /*border: 1px solid black;*/
     column-gap: 20px;
 }
-
 .head_comp img{
     margin: 0 auto;
     max-height: 120px;
     width: 300px;
     object-fit: cover;
+}
+@media screen and (max-device-width: 400px) {
+    .head_comp{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*.head_comp img{*/
+    /*    min-height: 500px;*/
+    /*}*/
 }
 
 /* Styling for the Zap product page.
@@ -428,4 +445,41 @@ nav a:active{
     display: flex;
     justify-content: space-between;
 }
+
+/*Styling for the responsive header component
+***************************************************************************************************/
+.mobile-container {
+    border: 1px solid black;
+    margin: auto;
+    height: fit-content;
+    color: white;
+}
+
+
+.topNav{
+    /*position: relative;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: 0 auto;
+    max-height: 70px;
+}
+
+/*#myLinks {*/
+/*    display: none;*/
+/*}*/
+
+.fa-bars {
+    color: black;
+    font-size: x-large;
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 

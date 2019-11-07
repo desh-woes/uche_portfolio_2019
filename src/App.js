@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Header from "./components/header_comp";
+import Header from "./components/hamburger_header";
 
 // Import required pages
 import RenderHome from "./pages/home_page";
@@ -9,6 +9,9 @@ import RenderAgriPredict from "./pages/agriPredict_page";
 import RenderZap from "./pages/zap_page";
 import RenderAboutPage from "./pages/about_page";
 import RenderLetterMark from "./pages/letter_mark";
+
+// Import Style sheet
+import "./style/index.css";
 
 function App() {
     return(
