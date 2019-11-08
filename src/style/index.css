@@ -484,6 +484,12 @@ nav a:active{
     width: 40%;
 }
 
+.letterGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+}
+
 @media screen and (max-width: 700px){
     .letterGrid{
         display: grid;
