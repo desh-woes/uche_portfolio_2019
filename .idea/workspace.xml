@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd61ad70-5824-4c65-9918-0a3342adb254" name="Default Changelist" comment="" />
+    <list default="true" id="bd61ad70-5824-4c65-9918-0a3342adb254" name="Default Changelist" comment="Bug fixes across pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/display_right.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/display_right.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hamburger_header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hamburger_header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header_comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo_comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo_comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +104,8 @@
       <workItem from="1573128102897" duration="6013000" />
       <workItem from="1573134763595" duration="708000" />
       <workItem from="1573140830895" duration="1787000" />
+      <workItem from="1573204539384" duration="169000" />
+      <workItem from="1573554435046" duration="7003000" />
     </task>
     <task id="LOCAL-00001" summary="Environment setup for the portfolio project">
       <created>1571306291976</created>
@@ -207,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573141918230</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated display">
+      <created>1573204567262</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1573204567262</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +262,8 @@
     <MESSAGE value="Updated Social media" />
     <MESSAGE value="Updated Social media links" />
     <MESSAGE value="Added scrollable component to enable new page scroll to the top." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added scrollable component to enable new page scroll to the top." />
+    <MESSAGE value="Updated display" />
+    <MESSAGE value="Bug fixes across pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes across pages" />
   </component>
 </project>

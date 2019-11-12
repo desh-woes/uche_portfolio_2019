@@ -42,7 +42,7 @@ function Header2() {
             <div>
                 <div className={"topNav"}>
                     <Link to={"/"} style={headerStyle}>
-                        <h1>Ichie Uche</h1>
+                        <h1>ICHIE UCHE</h1>
                     </Link>
                     <Link to={void(0)} onClick={()=> setClicked( !isClicked)}>
                         <i className={"fa fa-bars"}/>

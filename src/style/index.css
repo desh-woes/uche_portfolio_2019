@@ -196,7 +196,7 @@ nav a:active{
 
 .fa-envelope, .fa-instagram, .fa-linkedin-in{
     border: 1px solid;
-    border-radius: 25%;
+    border-radius: 50%;
     padding: 7px;
     font-size: 22px;
 }

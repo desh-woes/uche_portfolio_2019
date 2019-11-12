@@ -40,11 +40,8 @@ function Header() {
         <header className={"header"}>
             <div id="nav-bar">
                 <Link to={"/"} style={headerStyle}>
-                    <h1>Ichie Uche</h1>
+                    <h1>ICHIE UCHE</h1>
                 </Link>
-                {/*<Link to={"/"}>*/}
-                {/*    <img alt="Portfolio Logo" src={logo}/>*/}
-                {/*</Link>*/}
                 <NavBar/>
             </div>
         </header>

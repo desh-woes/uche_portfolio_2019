@@ -19,15 +19,15 @@ function RenderAboutPage(){
                 <div>
                     <HighlightedText text={"Meet Uche"}/>
                     <ParagraphText
-                        paragraph={"Hello there, I’m Uchechukwu Onyeka. a designer fascinated by the process of creating something out of nothing. Born and" +
+                        paragraph={"Hello there, I’m Uchechukwu Onyeka, a designer fascinated by the process of creating something out of nothing. Born and " +
                         "raised in Lagos, Nigeria, but currently based in Rwanda.\n" +
                         "I am passionate about retelling brand stories to give them an edge over their competitors, by ensuring that their products" +
                         "capture the unique market cultures. I strive to do this by creating products that matter through Human-Centered design.\n" +
-                        "I’ve worked with companies across Africa and a few international too 🚀, building up 4+ years of experience in " +
-                        "creating products for people, by understanding desires and reactions.\n" +
-                        "With technology a ubiquitous presence in everyday interactions, I believe that thorough consideration of the impact of " +
+                        "I’ve worked with companies across Africa and a few international ones too 🚀, building up 4+ years of experience in " +
+                        "creating products for people by understanding desires and reactions.\n" +
+                        "With technology being a ubiquitous presence in everyday interactions, I believe that thorough consideration of the impact of " +
                         "design on users is a necessary part of solving their daily problems.\n" +
-                        "Some small conversation starters for me would be: HIMYM 🍿, Travel 🌊, local cheap eats 🍜"}
+                        "Some small conversation starters for me would be: HIMYM 🍿, Travel 🌊, and local cheap eats 🍜"}
                     />
                     <HighlightedText
                         text={"View my resume"}

@@ -60,6 +60,8 @@ function RenderHome() {
                 label = {"Ui Designs"}
                 paragraph = {"More of my fun / commisioned Ui design projects."}
                 text = {"View case study"}
+                link={"//www.uplabs.com/ichieuche"}
+                target={"_blank"}
             />
 
             <RenderLeft
